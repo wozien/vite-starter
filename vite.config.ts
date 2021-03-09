@@ -30,7 +30,19 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
         }
       ]
     },
-    
+
+    build: {
+      terserOptions: {
+        compress: {
+          keep_infinity: true,
+          drop_console: true
+        }
+      },
+      // Turning off brotliSize display can slightly reduce packaging time
+      brotliSize: false,
+      chunkSizeWarningLimit: 1200
+    },
+
     css: {
       preprocessorOptions: {
         less: {
