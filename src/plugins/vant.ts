@@ -1,4 +1,3 @@
-import { App } from 'vue';
 import { 
   Button,
   Cell,
@@ -8,7 +7,7 @@ import {
   Field
 } from 'vant';
 
-export default function install(app: App) {
+export default function (app: any) {
   app.use(Button);
   app.use(CellGroup);
   app.use(Cell);

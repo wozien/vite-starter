@@ -10,13 +10,8 @@
 
 <script lang="ts">
 import { defineComponent, PropType, ref, watchEffect } from 'vue';
-import { useStore } from '@/store'; 
-
-interface Item {
-  title: string
-  content: string
-  status: 'done' | 'progress'
-}
+import { useStore } from '@/store';
+import { Item } from '#/global';
 
 export default defineComponent({
   props: {

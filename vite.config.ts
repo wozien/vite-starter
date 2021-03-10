@@ -23,6 +23,10 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
           find: /^@\//,
           replacement: pathResolve('src') + '/'
         },
+        {
+          find: /^#\//,
+          replacement: pathResolve('types')+ '/'
+        },
         // 由于vite暂时不支持less的~导入, 需要替换成空字符串
         {
           find: /^~/,      

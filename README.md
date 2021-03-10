@@ -15,7 +15,7 @@
 
 ### 其他配置
 
-- [ ] types定义维护
+- [x] types定义维护
 - [ ] 多语言
 - [ ] tsconfig(引入js)
 - [ ] 低版本浏览器兼容（[@vitejs/plugin-legacy](https://www.npmjs.com/package/@vitejs/plugin-legacy))
