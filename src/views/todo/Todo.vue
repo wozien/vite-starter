@@ -3,7 +3,6 @@
     <TodoList :list="progressList" />
     <h2 class="group-title">已完成</h2>
     <TodoList :list="doneList" />
-
     <van-button type="primary" icon="plus" to="/todoCreate"/>
   </div>
 </template>

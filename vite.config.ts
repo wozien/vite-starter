@@ -52,7 +52,8 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
         less: {
           modifyVars: {
             // 导入变量和mixin样式，避免在每个组件@import
-            hack: `true; @import (reference) "${resolve('src/styles/config.less')}";`,
+            hack: `true; @import (reference) "${pathResolve('src/styles/config.less')}";`,
+            // 'button-primary-background-color': '#a0dfa0'
           },
           javascriptEnabled: true
         }
@@ -65,7 +66,8 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
       port: 8080,
       hmr: {
         overlay: false
-      }
+      },
+      force: true
     }
   }
 }
