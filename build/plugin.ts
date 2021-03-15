@@ -30,6 +30,7 @@ export function createVitePlugins(viteEnv: Record<string, any>, isBuild: boolean
           esModule: true,
           resolveStyle: (name) => {
             return `vant/es/${name}/style/index`
+            // return `vant/es/${name}/index.less`
           }
         }
       ]

@@ -23,7 +23,7 @@ export default defineComponent({
     const done = ref(false);
 
     const onChange = () => {
-      store.commit('SET_STATUS', { key: props.item.key, status: done.value ? 'done': 'progress' });
+      store.commit('SET_STATUS', { key: props.item?.key, status: done.value ? 'done': 'progress' });
     };
 
     watchEffect(() => {

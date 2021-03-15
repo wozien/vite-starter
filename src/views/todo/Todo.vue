@@ -23,7 +23,7 @@ export default defineComponent({
     const doneList = computed(() => list.value.filter((item: any) => item.status === 'done'));
     const progressList = computed(() => list.value.filter((item: any) => item.status === 'progress'));
 
-    store.dispatch('fetchListData');
+    // store.dispatch('fetchListData');
 
     return {
       doneList,
