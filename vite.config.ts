@@ -53,9 +53,7 @@ export default ({ command, mode }: ConfigEnv): UserConfig => {
           modifyVars: {
             // 导入变量和mixin样式，避免在每个组件@import
             hack: `true; @import (reference) "${pathResolve('src/styles/config.less')}";`,
-            // 修改 van-button 默认背景颜色， 但是在 prod 环境不生效
-            // https://github.com/anncwb/vite-plugin-style-import/issues/10
-            'button-primary-background-color': '#a0dfa0'
+            // 'blue': '#a0dfa0',
           },
           javascriptEnabled: true
         }

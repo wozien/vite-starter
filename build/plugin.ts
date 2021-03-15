@@ -29,8 +29,8 @@ export function createVitePlugins(viteEnv: Record<string, any>, isBuild: boolean
           libraryName: 'vant',
           esModule: true,
           resolveStyle: (name) => {
-            return `vant/es/${name}/style/index`
-            // return `vant/es/${name}/index.less`
+            // https://github.com/anncwb/vite-plugin-style-import/issues/10
+            return `vant/lib/${name}/style/less`
           }
         }
       ]

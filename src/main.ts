@@ -1,4 +1,6 @@
 import '@/styles/index.less';
+
+// 在 dev 环境导入全部的样式， 减少按需加载的组件请求
 if(import.meta.env.DEV) {
   import ('vant/lib/index.less');
 }

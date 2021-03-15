@@ -218,9 +218,9 @@
     "@babel/plugin-syntax-typescript" "^7.12.13"
 
 "@babel/runtime@7.x":
-  version "7.13.9"
-  resolved "https://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.13.9.tgz?cache=0&sync_timestamp=1614635224492&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.13.9.tgz#97dbe2116e2630c489f22e0656decd60aaa1fcee"
-  integrity sha1-l9viEW4mMMSJ8i4GVt7NYKqh/O4=
+  version "7.13.10"
+  resolved "https://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.13.10.tgz?cache=0&sync_timestamp=1615243066705&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.13.10.tgz#47d42a57b6095f4468da440388fdbad8bebf0d7d"
+  integrity sha1-R9QqV7YJX0Ro2kQDiP262L6/DX0=
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -294,9 +294,9 @@
     fastq "^1.6.0"
 
 "@popperjs/core@^2.5.4":
-  version "2.9.0"
-  resolved "https://registry.npm.taobao.org/@popperjs/core/download/@popperjs/core-2.9.0.tgz?cache=0&sync_timestamp=1614685839394&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40popperjs%2Fcore%2Fdownload%2F%40popperjs%2Fcore-2.9.0.tgz#32e63212293dd3efbb521cd35a5020ab66eaa546"
-  integrity sha1-MuYyEik90++7UhzTWlAgq2bqpUY=
+  version "2.9.1"
+  resolved "https://registry.npm.taobao.org/@popperjs/core/download/@popperjs/core-2.9.1.tgz#7f554e7368c9ab679a11f4a042ca17149d70cf12"
+  integrity sha1-f1VOc2jJq2eaEfSgQsoXFJ1wzxI=
 
 "@rollup/plugin-node-resolve@^11.2.0":
   version "11.2.0"
@@ -2212,9 +2212,9 @@ v8-compile-cache@^2.0.3:
   integrity sha1-LeGWGMZtwkfc+2+ZM4A12CRaLO4=
 
 vant@^3.0.8:
-  version "3.0.8"
-  resolved "https://registry.npm.taobao.org/vant/download/vant-3.0.8.tgz#7f4482ce8ae7b796a0e01a569f7e6390227f8758"
-  integrity sha1-f0SCzornt5ag4BpWn35jkCJ/h1g=
+  version "3.0.9"
+  resolved "https://registry.npm.taobao.org/vant/download/vant-3.0.9.tgz#f946775001a834ce27843fc9fa25414368266a78"
+  integrity sha1-+UZ3UAGoNM4nhD/J+iVBQ2gmang=
   dependencies:
     "@babel/runtime" "7.x"
     "@vant/icons" "^1.5.3"
