@@ -24,18 +24,11 @@ module.exports = {
     'no-console': isProd ?  'error' : 'off',
     'no-debugger': isProd ?  'error' : 'off',
     'no-unused-vars': 'off',
-    '@typescript-eslint/no-unused-vars': ['error'],
+    '@typescript-eslint/no-unused-vars': 'off',
+    // '@typescript-eslint/no-unused-vars': ['error'],   // 会合 setup 提案冲突， 暂时屏蔽哈哈
     '@typescript-eslint/ban-types': 'off',
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
-    'no-restricted-syntax': [
-      'warn',
-      {
-        selector:
-          'CallExpression[callee.object.name=\'console\'][callee.property.name!=/^(log|warn|error|info|trace)$/]',
-        message: 'Unexpected property on console object was called'
-      }
-    ],
     // 闭合标签
     'vue/html-self-closing': 'off',
     'vue/no-parsing-error': [2, {
