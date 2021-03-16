@@ -1,8 +1,8 @@
 <template>
   <div class="todo-item">
     <div class="info">
-      <h2 class="title">{{ item.title }}</h2>
-      <p class="content">{{ item.content }}</p>
+      <h2 class="title">{{ item?.title }}</h2>
+      <p class="content">{{ item?.content }}</p>
     </div>
     <van-checkbox shape="square" v-model="done" @change="onChange" />
   </div>
