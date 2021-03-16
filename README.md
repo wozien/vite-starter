@@ -16,6 +16,11 @@
 ### 其他配置
 
 - [x] types定义维护
+- [x] 类型检查 ([vue-tsc](https://github.com/johnsoncodehk/vue-tsc))
 - [ ] 多语言
 - [ ] tsconfig(引入js)
 - [ ] 低版本浏览器兼容（[@vitejs/plugin-legacy](https://www.npmjs.com/package/@vitejs/plugin-legacy))
+
+### IDE Support
+
+[Volar](https://github.com/johnsoncodehk/volar)
