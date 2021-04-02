@@ -40,7 +40,7 @@ export default defineComponent({
   .group-title {
     padding: 10px;
     font-size: 13px;
-    color: @text-color;
+    color: @my-text-color;
   }
   &::v-deep(.van-button) {
     width: 44px;

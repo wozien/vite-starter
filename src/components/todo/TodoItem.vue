@@ -53,7 +53,7 @@ export default defineComponent({
       margin-bottom: 8px;
     }
     .content {
-      color: @text-color;
+      color: @my-text-color;
       font-size: 13px;
     }
   }
